@@ -1,0 +1,79 @@
+---
+---
+
+@import "minima-reboot";
+
+// Custom navbar styling
+.site-header {
+  background-color: #317ffe !important; // Replace with your desired color
+  border-bottom: 100px solid #ee3131; // Optional border
+}
+
+// If using Bootstrap navbar classes
+.navbar {
+  background-color: #cccccc !important;
+}
+
+// Site title color (if needed)
+.site-title {
+  color: #ffffff !important; // Adjust text color for contrast
+}
+
+// Navigation links color
+.page-link {
+  color: #ffffff !important; // Adjust for contrast
+  
+  &:hover {
+    color: #cccccc !important; // Hover state
+  }
+}
+
+#nav-header {
+  padding-top: 1.0rem !important;    // Increase top padding
+  padding-bottom: 1.0rem !important; // Increase bottom padding
+}
+
+#site-footer {
+  color: #9e9e9e !important;
+  
+  // Also change links in footer
+  a {
+    color: #fba224 !important;
+
+    &:hover {
+      color: #fba224 !important;
+    }
+  }
+
+  .h5 {
+    color: #6c757d !important;
+  }
+  
+  .h6 {
+    color: #6c757d !important;
+  }
+}
+
+.site-title-container {
+  .h2 {
+    line-height: 1.2;
+    
+    @media (max-width: 1200px) {
+      font-size: 1.9rem !important;
+    }
+        
+    @media (max-width: 768px) {
+      font-size: 1.9rem !important;
+    }
+  }
+  
+//   .course-info {
+//     @media (max-width: 992px) {
+//       font-size: 1rem !important;
+//     }
+    
+//     @media (max-width: 768px) {
+//       font-size: 0.9rem !important;
+//     }
+//   }
+}

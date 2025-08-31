@@ -1,0 +1,311 @@
+---
+layout: home
+---
+
+<h3> Class Overview </h3>
+This course covers algorithms and architectures for large-scale foundation models, including self-attention mechanisms, approximate algorithms for long-context sequences, subquadratic-time attention models, mixture of experts, autoregressive and generative models (such as Diffusion Transformers), efficient decoding strategies, distributed training, parameter-efficient fine-tuning, and includes project-based presentations.
+
+<hr>
+<h3> Important Notes </h3>
+<ul>
+    <li>The class will be held in person.</li>
+    <!-- <ul>
+      <li>KLMS: <a href="https://klms.kaist.ac.kr/course/view.php?id=170468">https://klms.kaist.ac.kr/course/view.php?id=170468</a> </li>
+    </ul> -->
+    <li>To contact Instructor/TAs, please use <b><a href="mailto:ee595b-25fall@googlegroups.com">ee595b-25fall@googlegroups.com</a></b> instead of individual emails.
+      </li>
+    <li>No Midterm/Final Exams</li>
+    <li><b>We will not answer emails sent to individuals.</b></li>
+    <!-- <li>We do not accept late submissions. Please submit assignments before the deadline.   -->
+  </ul>
+
+<hr>
+<h3> Lectures </h3>
+<ul>
+  <li>When: Mon/Wed, 14:30~16:00</li>
+  <li>Where: Kim Beang-Ho & Kim Sam-Youl ITC Building (N1) #111</li>
+</ul>
+
+<!-- <hr> -->
+<!-- <h3> Exam Schedules </h3>
+<ul>
+  <li>No Midterm/Final Exam</li>
+</ul> -->
+
+
+<hr>
+<h3> Instructor </h3>
+<ul>
+  <li><a href="https://insuhan.github.io/">Insu Han</a> (Email: <a href="mailto:insu.han@kaist.ac.kr">insu.han@kaist.ac.kr</a>, Office: N1 #914) </li>
+  <li>Office Hour: Wed 4-5 pm + by appointment</li>
+  <!-- <li>Office: Kim Beang-Ho & Kim Sam-Youl ITC Building (N1) #914</li> -->
+</ul>
+
+<hr>
+<h3> Teaching Assistants </h3>
+<ul>
+    <li>Hyungjoo Kim (Email: <a href="mailto:hyungjoo_kim@kaist.ac.kr">hyungjoo_kim@kaist.ac.kr</a>, Office: N1 #312)</li>
+    <li>Seongwoo Moon (Email: <a href="mailto:seongwoo.moon@kaist.ac.kr">seongwoo.moon@kaist.ac.kr</a>, Office: N1 #312)</li>
+  </ul>
+
+
+
+<hr>
+<h3> Grading Policy </h3>
+<ul>
+  <li>Project Proposal: 30%</li>
+  <li>Project Final: 40%</li>
+  <li>Peer Evaluation: 20%</li>
+</ul>
+
+<style>
+  tr.warning {
+    background-color: rgb(231, 189, 189);
+    color: white; /* optional, for better text contrast */
+  }
+</style>
+
+<hr>
+<h3 id="schedule">Tentative Schedule</h3>
+This schedule is <b>tentative</b> and subject to change. Please check back often.
+<br><br>
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover">
+        <tr>
+            <th style="text-align:left;width: 5%;">Week</th>
+            <th style="text-align:left;width: 12%;">Date</th>
+            <th style="text-align:left;width: 45%;">Lecture</th>
+            <th style="text-align:left;width: 30%;">Readings</th>
+            <th style="text-align:left;width: 5%;">Notes</th>
+        </tr>
+
+        <!-- ===================== Week 1 ===================== -->
+        <tr>
+            <td rowspan="2">1</td>
+            <td>9/1 (Mon)</td>
+            <td>Lecture 1: Course Overview</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9/3 (Wed)</td>
+            <td>Lecture 2: Sequence Modeling with RNN, Transformer</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 2 ===================== -->
+        <tr>
+            <td rowspan="2">2</td>
+            <td>9/8 (Mon)</td>
+            <td>Lecture 3: Training Language Models and Decoding</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9/10 (Wed)</td>
+            <td>Lecture 4: Efficient Decoding Strategies</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 3 ===================== -->
+        <tr>
+            <td rowspan="2">3</td>
+            <td>9/15 (Mon)</td>
+            <td>Lecture 5: Modern Transformer Architecture</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9/17 (Wed)</td>
+            <td>Lecture 6: Scaling Laws, Mixture of Experts</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 4 ===================== -->
+        <tr>
+            <td rowspan="2">4</td>
+            <td>9/22 (Mon)</td>
+            <td>Lecture 7: Long Context in Foundation Models and Flash Attention</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9/24 (Wed)</td>
+            <td>Lecture 8: Approximating Self-Attention</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 5 ===================== -->
+        <tr>
+            <td rowspan="2">5</td>
+            <td>9/29 (Mon)</td>
+            <td>Lecture 9: Generative Adversarial Networks (GANs) / PGM</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10/1 (Wed)</td>
+            <td>Lecture 10: Diffusion Models (Part 1)</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 6 ===================== -->
+        <tr>
+            <td class="table-warning" rowspan="2">6</td>
+            <td class="table-warning">10/6 (Mon)</td>
+            <td class="table-warning">Holiday (Chuseok) - No Class</td>
+            <td class="table-warning"><ul></ul></td>
+            <td class="table-warning"></td>
+        </tr>
+        <tr>
+            <td class="table-warning">10/8 (Wed)</td>
+            <td class="table-warning">Holiday (Chuseok) - No Class</td>
+            <td class="table-warning"><ul></ul></td>
+            <td class="table-warning"></td>
+        </tr>
+
+        <!-- ===================== Week 7 ===================== -->
+        <tr>
+            <td rowspan="2">7</td>
+            <td>10/13 (Mon)</td>
+            <td>Lecture 13: Diffusion Models (Part 2)</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10/15 (Wed)</td>
+            <td>Lecture 14: Diffusion Models (Part 3)</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 8 ===================== -->
+        <tr>
+            <td class="table-success">8</td>
+            <td class="table-success"></td>
+            <td class="table-success" colspan="3" style="text-align:center;"><b>Midterm (No Exam)</b></td>
+        </tr>
+
+        <!-- ===================== Week 9 ===================== -->
+        <tr>
+            <td rowspan="2">9</td>
+            <td>10/27 (Mon)</td>
+            <td>Lecture 17: Distributed Training / Parallelism</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10/29 (Wed)</td>
+            <td>Lecture 18: Parameter-efficient Fine Tuning</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 10 ===================== -->
+        <tr>
+            <td rowspan="2">10</td>
+            <td>11/3 (Mon)</td>
+            <td>Lecture 19: Quantization / Low-Precision Training</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11/5 (Wed)</td>
+            <td>Lecture 20: LLM Compression</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 11 ===================== -->
+        <tr>
+            <td rowspan="2">11</td>
+            <td>11/10 (Mon)</td>
+            <td>Lecture 21: Direct Preference Optimization (DPO)</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11/12 (Wed)</td>
+            <td>Lecture 22: Multimodal Foundation Models</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 12 ===================== -->
+        <tr>
+            <td rowspan="2">12</td>
+            <td>11/17 (Mon)</td>
+            <td>Lecture 23: Text-to-Image/Video Generation</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11/19 (Wed)</td>
+            <td>Lecture 24: State Space Models</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 13 ===================== -->
+        <tr>
+            <td rowspan="2">13</td>
+            <td>11/24 (Mon)</td>
+            <td>Project Presentation 1</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11/26 (Wed)</td>
+            <td>Project Presentation 2</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 14 ===================== -->
+        <tr>
+            <td rowspan="2">14</td>
+            <td>12/1 (Mon)</td>
+            <td>Project Presentation 3</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>12/3 (Wed)</td>
+            <td>Project Presentation 4</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 15 ===================== -->
+        <tr>
+            <td rowspan="2">15</td>
+            <td>12/8 (Mon)</td>
+            <td>Project Presentation 5</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>12/10 (Wed)</td>
+            <td>Project Presentation 6</td>
+            <td><ul></ul></td>
+            <td></td>
+        </tr>
+
+        <!-- ===================== Week 16 ===================== -->
+        <tr>
+            <td class="table-success">16</td>
+            <td class="table-success"></td>
+            <td class="table-success" colspan="3" style="text-align:center;"><b>Final (No Exam)</b></td>
+        </tr>
+    </table>
+</div>
+
+
+<hr>
+<h3> Class Policy </h3>
+Students are encouraged to interact with classmates, as well as the professor and the TAs, to discuss course material and assignment problems. In all your writing, including homework, essays, reports, and exams, use your own words, and acknowledge the source if you use someone else’s slides, quotes, figures, text, etc. Plagiarism and cheating are serious offenses and will be punished by failure on assignments/course, and suspension or expulsion from the university.
